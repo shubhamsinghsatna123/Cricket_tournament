@@ -1,0 +1,8 @@
+.dashboard-bg {
+  background-image: url('./df.webp');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  color: white;
+}
