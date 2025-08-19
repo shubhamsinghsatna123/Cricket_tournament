@@ -42,7 +42,8 @@ const AllTournaments = () => {
                 <div className="card-body">
                   <h5 className="card-title">{tournament.name}</h5>
                   <p className="card-text">
-                    <strong>Location:</strong> {tournament.city} <br />
+                    <strong>Tournament_Id:</strong> {tournament.id} <br />
+                    <strong>Location:</strong> {tournament.city} <br />                    
                     <strong>Start Date:</strong> {tournament.startDate} <br />
                     <strong>End Date:</strong> {tournament.endDate}
                   </p>

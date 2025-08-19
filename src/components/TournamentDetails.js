@@ -50,6 +50,7 @@ const TournamentDetails = () => {
         {/* Location & Dates */}
         <div className="mb-4">
           <h5 className="text-primary">Location & Dates</h5>
+          
           <p><strong>City:</strong> {tournament.city}</p>
           <p><strong>Start Date:</strong> {tournament.startDate}</p>
           <p><strong>End Date:</strong> {tournament.endDate}</p>

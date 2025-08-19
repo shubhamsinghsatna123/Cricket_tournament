@@ -18,7 +18,7 @@ export default function CaptainManage() {
   // Delete captain by mobile number
   const deleteCaptain = (mobile) => {
     if (window.confirm("Are you sure you want to delete this captain?")) {
-      fetch(`http://localhost:8081/team/delete?mobile=${mobile}`, { // ✅ Correct query param
+      fetch(`http://localhost:8081/team/delete10?mobile=${mobile}`, { // ✅ Correct query param
         method: "DELETE",
       })
         .then((res) => {

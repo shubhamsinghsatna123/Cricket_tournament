@@ -33,10 +33,10 @@ export default function TeamList() {
               />
               <div className="card-body">
                 <h5 className="card-title">{team.teamname}</h5>
-                <p className="text-muted">📍 {team.city}</p>
-                <p className="mb-1">👤 Captain: {team.captainName}</p>
+                <p className="text-muted">📍 {team.city.toUpperCase()}</p>
+                <p className="mb-1">👤 Captain: {team.captainName.toUpperCase()}</p>
                 <p className="mb-1">📞 {team.captainPhone}</p>
-                <p className="mb-1">🏆 Tournament ID: {team.tournamentId}</p>
+                <p className="mb-1">🏆 Tournament_ID: {team.tournamentId}</p>
               </div>
               <div className="card-footer text-center">
                 <button
